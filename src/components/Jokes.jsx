@@ -1,20 +1,18 @@
 import React from "react";
+import data from "../data";
+import "./Jokes.css";
 
 function Jokes() {
-  return (
-    <div>
-      <article>
-        <img
-          src="./nature.jpg"
-          alt="joke-image loading"
-          className="joke-img"
-        ></img>
-        <p>
-          <b>this is a joke antha ane okha joke chepana edhey joke navandhii</b>
-        </p>
-      </article>
+  const jokesElement = data.map((joke) => (
+    <div className="joke" key={joke.id}>
+      <img
+        {...joke.img}
+        className={`joke-img ${joke.id === 2 ? "adjust-img" : ""}`}
+      />
+      <p className="text">{joke.text}</p>
     </div>
-  );
+  ));
+  return <article className="main">{jokesElement}</article>;
 }
 
 export default Jokes;
