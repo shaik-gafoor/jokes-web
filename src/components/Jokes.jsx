@@ -6,7 +6,8 @@ function Jokes() {
   const jokesElement = data.map((joke) => (
     <div className="joke" key={joke.id}>
       <img
-        {...joke.img}
+        src={joke.img.src}
+        alt={joke.img.alt}
         className={`joke-img ${joke.id === 2 ? "adjust-img" : ""}`}
       />
       <p className="text">{joke.text}</p>

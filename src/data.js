@@ -2,47 +2,41 @@ export default [
   {
     id: 1,
     img: {
-      src: "/images/joke.jpg",
+      src: "/jokes_web/images/joke.jpg",
       alt: "Laughing nature",
-      className: "joke-img",
     },
-    text: "Why don’t scientists trust atoms? Because they make up everything!",
+    text: "That Moment When someone continues to tell a lie in front of you but you know the truth!",
   },
-
   {
     id: 2,
     img: {
-      src: "/images/joke3.webp",
+      src: "/jokes_web/images/joke3.webp",
       alt: "Laptop meme",
-      className: "joke-img",
     },
-    text: "I asked my computer for a joke. It said: 01101000 01100001 01101000 01100001 😂",
+    text: "Doctor: You should drink 10 glasses of water daily. Patient : I only have 4 glasses at home! 😅",
   },
   {
     id: 3,
     img: {
-      src: "/images/img5.jpg",
+      src: "/jokes_web/images/img3.png",
       alt: "Banana laughing",
-      className: "joke-img",
     },
-    text: "Why did the banana go to the doctor? Because it wasn’t peeling well!",
+    text: "Why did the person cry during the urine test? They feared another unexpected cut after the finger prick for the blood test!",
   },
   {
     id: 4,
     img: {
-      src: "/images/joke2.jpg",
+      src: "/jokes_web/images/joke2.jpg",
       alt: "Math joke",
-      className: "joke-img",
     },
-    text: "Parallel lines have so much in common… it’s a shame they’ll never meet.",
+    text: "Why did the student get a degree in F.T.M.S.?Because they were outstanding in their field of full-time meme scrolling!",
   },
   {
     id: 5,
     img: {
-      src: "/images/nature.jpg",
+      src: "/jokes_web/images/img6.jpg",
       alt: "Programmer joke",
-      className: "joke-img",
     },
-    text: "Why do programmers prefer dark mode? Because light attracts bugs! 🐞",
+    text: "Because they wanted a quantitative measure of how much time their partner was willing to waste on the relationship.",
   },
 ];
